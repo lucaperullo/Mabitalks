@@ -9,7 +9,7 @@ export default function Card() {
         alt=""
         className="card-image"
       />
-      <div>
+      <div className="card-text">
         <h3 className="card-title">Introduzione a Flutter</h3>
         <span className="card-text-muted">
           Scopriamo i vantaggi dell'utilizzo di Flutter per sviluppare
