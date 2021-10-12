@@ -34,9 +34,8 @@ export default function Section() {
       <Container>
         <Row>
           {state.cards.map((card) => (
-            <Col xs={12} md={4}>
+            <Col xs={12} sm={6} md={4}>
               <Card
-                className="card"
                 key={card.id}
                 id={card.id}
                 title={card.title}

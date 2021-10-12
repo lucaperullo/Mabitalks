@@ -4,7 +4,12 @@ import { MdOutlineLogout } from "react-icons/md";
 export default function Navbar() {
   return (
     <div className="navbar">
-      <img height={60} src="assets/mobitalkslogo.png" alt="mabitalks-logo" />
+      <img
+        height={60}
+        src="assets/mobitalkslogo.png"
+        alt="mabitalks-logo"
+        className="mabitalks-logo"
+      />
       <div className="navbar-butttons">
         <div className="button-notifications">
           <VscBell size="30px" />
