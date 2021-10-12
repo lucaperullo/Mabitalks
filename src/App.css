@@ -2,7 +2,7 @@
   padding: 20px;
   padding-left: 120px;
   padding-right: 120px;
-  height: 80px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,6 +32,21 @@
   padding-top: 50px;
   height: 100%;
   background-color: #fafafa;
+}
+.categories {
+  display: flex;
+  justify-content: space-between;
+  width: 410px;
+  margin-bottom: 40px;
+}
+.categories__item {
+  background-color: #e854222f;
+  padding: 5px;
+  /* border: 1px solid #e8542225; */
+  border-radius: 30px;
+}
+.category-name {
+  color: #e85322;
 }
 @media (max-width: 670px) {
   .section {

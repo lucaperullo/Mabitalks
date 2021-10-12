@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import Card from "./Card";
 import { Row, Col, Container } from "react-bootstrap";
 import { useStateValue } from "../contextApi/stateProvider";
+import Categories from "./Categories";
+import { motion } from "framer-motion";
 export default function Section() {
   const [state, dispatch] = useStateValue();
   const getRecent = async () => {
@@ -30,8 +32,9 @@ export default function Section() {
 
   return (
     <div className="section">
-      <h1 className="mabi-title">Next on Mabitalks</h1>
       <Container>
+        <h1 className="mabi-title">Next on Mabitalks</h1>
+        <Categories />
         <Row>
           {state.cards.map((card) => (
             <Col xs={12} lg={6} xl={4}>

@@ -1,8 +1,8 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 export default function Card(props) {
   return (
-    <div className="card-container">
+    <motion.div layout className="card-container">
       <div className="card-tag">{props.tags[0]}</div>
       <div
         style={{
@@ -17,6 +17,6 @@ export default function Card(props) {
         <h3 className="card-title">{props.title}</h3>
         <span className="card-text-muted">{props.description}</span>
       </div>
-    </div>
+    </motion.div>
   );
 }
