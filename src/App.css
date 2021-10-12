@@ -40,10 +40,17 @@
   margin-bottom: 40px;
 }
 .categories__item {
-  background-color: #e854222f;
+  transition: 0.25s ease;
+  background-color: #e854221e;
   padding: 5px;
+  padding-right: 7px;
+  padding-left: 7px;
   /* border: 1px solid #e8542225; */
   border-radius: 30px;
+}
+.categories__item:hover {
+  background-color: #e854224d;
+  cursor: pointer;
 }
 .category-name {
   color: #e85322;
