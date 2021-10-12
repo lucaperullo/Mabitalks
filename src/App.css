@@ -18,9 +18,17 @@
   align-items: center;
 }
 .button-notifications {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 30px;
 }
 .button-text {
   margin-right: 10px;
   font-weight: 500;
+}
+.section {
+  height: 100vh;
+  background-color: #fafafa;
+  width: 100%;
 }

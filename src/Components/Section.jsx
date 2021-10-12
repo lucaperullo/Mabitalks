@@ -3,7 +3,7 @@ import Card from "./Card";
 
 export default function Section() {
   return (
-    <div>
+    <div className="section">
       <Card />
     </div>
   );
