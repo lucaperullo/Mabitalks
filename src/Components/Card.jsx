@@ -1,20 +1,13 @@
 import React from "react";
 
-export default function Card() {
+export default function Card(props) {
   return (
     <div className="card-container">
-      <div className="card-tag">Da non perdere</div>
-      <img
-        src="https://instabug.com/blog/wp-content/uploads/2020/02/AppDev_Flutter-Apps.png"
-        alt=""
-        className="card-image"
-      />
+      <div className="card-tag">{props.tags[0]}</div>
+      <img src={props.image} alt="" className="card-image" />
       <div className="card-text">
-        <h3 className="card-title">Introduzione a Flutter</h3>
-        <span className="card-text-muted">
-          Scopriamo i vantaggi dell'utilizzo di Flutter per sviluppare
-          fantastiche app ibride
-        </span>
+        <h3 className="card-title">{props.title}</h3>
+        <span className="card-text-muted">{props.description}</span>
       </div>
     </div>
   );
