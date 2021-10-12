@@ -66,6 +66,7 @@
 }
 .card-tag {
   position: relative;
+  z-index: 1;
   top: 15px;
   left: 15px;
   background-color: #40ca63;
@@ -78,12 +79,7 @@
   font-size: 12px;
   text-align: center;
 }
-.card-image {
-  margin-top: -18px;
-  height: 60%;
-  z-index: -1;
-  width: 100%;
-}
+
 .card-text {
   display: flex;
   flex-direction: column;
