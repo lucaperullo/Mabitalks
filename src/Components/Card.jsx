@@ -10,7 +10,8 @@ export default function Card(props) {
           top: "-20px",
           backgroundImage: `url(${props.image})`,
           backgroundSize: "cover",
-          height: "60%",
+          height: "150px",
+          backgroundPositionY: "-50px",
         }}
       />
       <div className="card-text">
