@@ -28,7 +28,28 @@
   font-weight: 500;
 }
 .section {
+  padding: 100px;
   height: 100vh;
   background-color: #fafafa;
   width: 100%;
+}
+.card-container {
+  border-radius: 20px;
+  height: 350px;
+  width: 400px;
+}
+.card-tag {
+  position: relative;
+  top: 30px;
+  left: 10px;
+  background-color: greenyellow;
+  border-radius: 4px;
+  max-width: 110px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: 12px;
+  text-align: center;
+}
+.card-image {
+  height: 170px;
 }
