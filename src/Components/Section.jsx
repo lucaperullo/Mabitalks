@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Card from "./Card";
-
+import { Row, Col, Container } from "react-bootstrap";
 import { useStateValue } from "../contextApi/stateProvider";
 export default function Section() {
   const [state, dispatch] = useStateValue();
@@ -31,16 +31,23 @@ export default function Section() {
   return (
     <div className="section">
       <h1 className="mabi-title">Next on Mabitalks</h1>
-      {state.cards.map((card) => (
-        <Card
-          key={card.id}
-          id={card.id}
-          title={card.title}
-          description={card.description}
-          image={card.image}
-          tags={card.tags}
-        />
-      ))}
+      <Container>
+        <Row>
+          {state.cards.map((card) => (
+            <Col xs={12} md={4}>
+              <Card
+                className="card"
+                key={card.id}
+                id={card.id}
+                title={card.title}
+                description={card.description}
+                image={card.image}
+                tags={card.tags}
+              />
+            </Col>
+          ))}
+        </Row>
+      </Container>
     </div>
   );
 }

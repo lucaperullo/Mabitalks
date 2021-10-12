@@ -30,15 +30,16 @@
 .section {
   padding: 100px;
   padding-top: 50px;
-  height: 100vh;
+  height: 100%;
   background-color: #fafafa;
-  width: 100%;
 }
+
 .card-container {
   box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.082);
   overflow: hidden;
   z-index: 1;
   border-radius: 20px;
+  margin-bottom: 40px;
   height: 350px;
   width: 400px;
   background-color: rgb(255, 255, 255);

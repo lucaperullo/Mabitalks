@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { StateProvider } from "./contextApi/stateProvider";
 import { initialState, reducer } from "./contextApi/reducer";
