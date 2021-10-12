@@ -1,0 +1,29 @@
+{
+  "name": "vite-template-react",
+  "version": "1.1.0",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-refresh": "^1.3.6",
+    "vite": "^2.5.0"
+  },
+  "description": "<h1 align=\"center\">\r   Vite Template React\r </h1>",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "lucaperullo"
+  },
+  "keywords": [
+    "asd"
+  ],
+  "author": "luca perullo",
+  "license": "ISC"
+}
