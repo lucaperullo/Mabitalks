@@ -37,10 +37,9 @@ export default function Section() {
         <Categories />
         <Row>
           {state.cards.map((card) => (
-            <Col xs={12} lg={6} xl={4}>
+            <Col key={card.id} xs={12} lg={6} xl={4}>
               <Card
-                liked={localStorage.getItem(card.id)}
-                key={card.id}
+                liked={localStorage.getItem(`${card.id}`)}
                 id={card.id}
                 title={card.title}
                 description={card.description}
