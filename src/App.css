@@ -17,3 +17,10 @@
   justify-self: center;
   align-items: center;
 }
+.button-notifications {
+  margin-right: 30px;
+}
+.button-text {
+  margin-right: 10px;
+  font-weight: 500;
+}
