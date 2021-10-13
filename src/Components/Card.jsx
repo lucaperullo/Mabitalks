@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import { FiHeart } from "react-icons/fi";
 import { FaHeart } from "react-icons/fa";
 import { FaHeartBroken } from "react-icons/fa";
 export default function Card(props) {
+  const today = new Date();
+  useEffect(() => {
+    console.log("today is :", today);
+    console.log(props);
+  }, []);
   const [like, setLike] = React.useState(false);
+
   return (
     <motion.div layout className="card-container">
-      <div className="card-tag">{props.tags[0]}</div>
+      {new Date(props.date) > today && (
+        <div className="card-tag">Da non perdere</div>
+      )}
       <div
         style={{
           position: "relative",

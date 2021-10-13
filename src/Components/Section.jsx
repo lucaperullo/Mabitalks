@@ -39,6 +39,7 @@ export default function Section() {
           {state.cards.map((card) => (
             <Col key={card.id} xs={12} lg={6} xl={4}>
               <Card
+                date={card.date}
                 liked={localStorage.getItem(`${card.id}`)}
                 id={card.id}
                 title={card.title}

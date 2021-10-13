@@ -116,15 +116,15 @@ html {
   transition: 0.25s ease;
 }
 .not-liked:active {
-  transform: scale(0.9);
+  transform: scale(1.3);
   animation: fill-in 0.25s ease-in-out;
 }
 @keyframes fill-in {
   0% {
-    fill: black;
+    fill: rgba(0, 0, 0, 0);
   }
   100% {
-    fill: tomato;
+    fill: rgb(0, 0, 0);
   }
 }
 .unlike {
@@ -139,10 +139,10 @@ html {
 .liked:hover > .like {
   display: none;
 }
+
 .not-liked:hover {
-  color: #e85322;
   cursor: pointer;
-  fill: black;
+  fill: #000000;
 }
 .card-title {
   line-height: 12px;
