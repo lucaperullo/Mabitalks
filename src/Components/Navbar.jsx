@@ -7,7 +7,7 @@ export default function Navbar() {
       <img
         height={60}
         width={160}
-        src="./src/images/mobitalkslogo.png"
+        src="/images/mobitalkslogo.png"
         alt="mabitalks-logo"
         className="mabitalks-logo"
       />
