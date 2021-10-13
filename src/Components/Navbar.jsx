@@ -1,6 +1,6 @@
 import React from "react";
-import { VscBell } from "react-icons/vsc";
-import { MdOutlineLogout } from "react-icons/md";
+import { BiBell, BiLogIn } from "react-icons/bi";
+
 export default function Navbar() {
   return (
     <div className="navbar">
@@ -13,11 +13,11 @@ export default function Navbar() {
       />
       <div className="navbar-butttons">
         <div className="button-notifications">
-          <VscBell size="30px" />
+          <BiBell size="30px" />
         </div>
         <div className="button-log-out">
           <span className="button-text">Logout</span>
-          <MdOutlineLogout size="30px" />
+          <BiLogIn size="30px" />
         </div>
       </div>
     </div>
