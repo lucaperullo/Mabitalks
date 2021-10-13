@@ -59,6 +59,10 @@ html {
   color: #e85322;
 }
 @media (max-width: 670px) {
+  .mabitalks-logo {
+    display: none;
+  }
+
   .section {
     padding-left: 5px;
     padding-right: 5px;

@@ -6,7 +6,8 @@ export default function Navbar() {
     <div className="navbar">
       <img
         height={60}
-        src="assets/mobitalkslogo.png"
+        width={160}
+        src="/assets/mobitalkslogo.png"
         alt="mabitalks-logo"
         className="mabitalks-logo"
       />
